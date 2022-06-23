@@ -8,6 +8,16 @@ function App() {
   const [prevUrl, setPrevUrl] = useState()
   const [nextUrl, setNextUrl] = useState()
 
+  useEffect(() => {
+    axios.get(currentUrl)
+      .then(res => { 
+        setNextUrl(res.data.next)
+        setPrevUrl(res.data.previous)
+        setPokemon(res.data.results)
+  })
+    }, [currentUrl]);
+
+
   return (
     <div className="App">
     </div>

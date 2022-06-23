@@ -71,4 +71,15 @@ body {
   rgba(78, 78, 78, 0.12);
 }
 
+.text {
+    text-transform: uppercase;
+    padding: 1;
+    border-radius: 1px;
+    background-color: rgb(19, 148, 148);
+    color: white;
+}
 
+.pokeCard:hover {
+    background-color: rgba(12, 188, 194, 0.39);
+    color: white;
+  }

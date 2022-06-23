@@ -17,6 +17,15 @@ function App() {
   })
     }, [currentUrl]);
 
+    const Pagination = (e) => {
+      if(e.target.textContent === "NEXT"){
+        setCurrentUrl(nextUrl)
+      }
+      if(e.target.textContent === "PREVIOUS"){
+        setCurrentUrl(prevUrl)
+      }
+    }
+
   return (
     <div className="App">
       {pokemon.map(pokemon => 

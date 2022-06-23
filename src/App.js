@@ -17,9 +17,15 @@ function App() {
   })
     }, [currentUrl]);
 
-
   return (
     <div className="App">
+      {pokemon.map(pokemon => 
+        <PokemonList pokemon = {pokemon} />
+        )}
+      <div className="btn">
+        <button onClick={Pagination} className="previous">PREVIOUS</button>
+        <button onClick={Pagination} className="next">NEXT</button>
+      </div>
     </div>
   );
 }

@@ -20,3 +20,35 @@ body {
   rgba(0, 0, 0, 0.2), 0 6px 20px 0
   rgba(0, 0, 0, 0.12);
 }
+
+.previous { 
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(42, 112, 190);
+  font-weight: 500;
+  box-shadow: 0 8px 16px 0
+  rgba(58, 58, 58, 0.2), 0 6px 20px 0
+  rgba(78, 78, 78, 0.12);
+}
+
+.next {
+  position: absolute;
+  padding-left: 30px;
+  padding-right: 30px;
+  bottom: 5px;
+  left: 1050px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(42, 112, 190);
+  font-weight: 500;
+  box-shadow: 0 8px 16px 0
+  rgba(58, 58, 58, 0.2), 0 6px 20px 0
+  rgba(78, 78, 78, 0.12);
+}

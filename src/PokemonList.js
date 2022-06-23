@@ -19,7 +19,7 @@ function PokemonList({ pokemon }) {
             </div>
             <br />
             <div className="image">
-            <img src={pokePic} />
+            <img src={pokePic} alt="" />
             </div>
         </div>
     )

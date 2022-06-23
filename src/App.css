@@ -1,0 +1,22 @@
+body {
+    
+    background-image: url("images/pokemonwild.png")
+}
+
+.App {
+    background-color: rgb(238, 238, 238);
+    top: 150px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    height: 250px;
+    box-shadow: 0 8px 16px 0
+  rgba(0, 0, 0, 0.2), 0 6px 20px 0
+  rgba(0, 0, 0, 0.12);
+}

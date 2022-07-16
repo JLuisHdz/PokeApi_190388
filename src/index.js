@@ -3,18 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Matricula from "./components/matricula";
+import Pokemon from "./components/Pokemon";
+import NavBar from "./components/NavBar";
+import './config/i18next-config'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <div>
+  <NavBar/>
+  <div>
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+        <Route path='/matricula' element = {<Matricula/>} />
+        <Route path='/pokemons/:id' element={<Pokemon/>} />
     </Routes>
-      <App />
     </BrowserRouter>
-  </React.StrictMode>
+  </div>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

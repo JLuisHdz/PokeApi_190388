@@ -8,11 +8,10 @@ height: 30px;
 background-color: crimson;
 padding: 10px;
 color: white;
-margin-left: 20px;
 }
 
 .nav a{
-padding-left: 10px;
+margin-left: 30px;
 }
 
 .nav a:hover {
@@ -20,7 +19,7 @@ color: rgb(197, 197, 197);
 }
 
 .bt {
-margin-left: 80px;
+margin-left: 700px;
 }
 
 .idi {
@@ -42,7 +41,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 justify-content: center;
-}
+flex-wrap: wrap;}
 
 .leng button {
 border-radius: 3px;
@@ -59,13 +58,14 @@ background-color: rgb(22, 66, 211);
 color: rgb(255, 255, 255);
 }
 
-.AppPok {
-  background-color: rgb(238, 238, 238);
+.inf {
+  background-color: rgb(247, 76, 76);
+  color: white;
   top: 150px;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
-  width: 90%;
+  
+  width: 40%;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -75,6 +75,109 @@ color: rgb(255, 255, 255);
   box-shadow: 0 8px 16px 0
 rgba(0, 0, 0, 0.2), 0 6px 20px 0
 rgba(0, 0, 0, 0.12);
+}
+
+.search {
+background-color: rgb(247, 76, 76);
+color: white;
+text-align: center;
+top: 150px;
+display: flex;
+flex-wrap: wrap;
+width: 91%;
+justify-content: center;
+align-items: center;
+margin: auto;
+position: relative;
+border-radius: 5px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+height: 60px;
+box-shadow: 0 8px 16px 0
+rgba(0, 0, 0, 0.2), 0 6px 20px 0
+rgba(0, 0, 0, 0.12);
+}
+
+.imput {
+color: rgb(58, 58, 58);
+width: 40%;
+margin: 5px;
+padding: 10px;
+border: 1px;
+text-align: center;
+border-color: rgb(148, 148, 148);
+border-radius: 2px;
+box-shadow: 0 8px 16px 0
+rgba(0, 0, 0, 0.2), 0 6px 20px 0
+rgba(0, 0, 0, 0.12);
+}
+
+.AppPok {
+  background-color: rgb(238, 238, 238);
+  top: 150px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 91%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+border-top-right-radius: 0;
+  height: 250px;
+  box-shadow: 0 8px 16px 0
+rgba(0, 0, 0, 0.2), 0 6px 20px 0
+rgba(0, 0, 0, 0.12);
+}
+
+.detalles {
+background-color: rgb(247, 76, 76);
+color: white;
+top: 100px;
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+width: 40%;
+justify-content: center;
+align-items: center;
+margin: auto;
+position: relative;
+border-radius: 5px;
+height: 430px;
+box-shadow: 0 8px 16px 0
+rgba(0, 0, 0, 0.2), 0 6px 20px 0
+rgba(0, 0, 0, 0.12);
+}
+
+.imPok{
+background-color: aliceblue;
+border-radius: 3px;
+margin-left: 20px;
+}
+
+.mov {
+display: block;
+border-radius: 3px;
+width: 300px;
+}
+
+.mov h1 {
+justify-content: center;
+align-items: center;
+}
+
+.borde {
+height: 1px;
+width: 500px;
+background-color: rgb(243, 243, 243);
+}
+
+.abilities {
+flex-wrap: wrap;
+margin-bottom: 20px;
+
 }
 
 .previous { 
@@ -94,6 +197,8 @@ rgba(78, 78, 78, 0.12);
 
 .next {
 position: absolute;
+justify-content:end;
+align-items:flex-end;
 padding-left: 30px;
 padding-right: 30px;
 bottom: 5px;
@@ -119,8 +224,6 @@ rgba(78, 78, 78, 0.12);
   display: flex;
   margin-bottom: 40px;
   border-radius: 5px;
-  flex-direction: column;
-  width: 100px;
   margin-right: 15px;
   box-shadow: 0 8px 16px 0
 rgba(58, 58, 58, 0.2), 0 6px 20px 0
@@ -128,14 +231,13 @@ rgba(78, 78, 78, 0.12);
 }
 
 .text {
-  text-transform: uppercase;
   padding: 1;
   border-radius: 1px;
-  background-color: rgb(19, 148, 148);
+  background-color: rgb(148, 19, 19);
   color: white;
 }
 
 .pokeCard:hover {
-  background-color: rgba(12, 188, 194, 0.39);
+  background-color: rgba(230, 126, 126, 0.39);
   color: white;
 }
